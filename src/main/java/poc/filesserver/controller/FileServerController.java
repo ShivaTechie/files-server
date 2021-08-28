@@ -45,6 +45,11 @@ public class FileServerController {
 
 	}
 
+	@GetMapping("/welcome")
+	public ResponseEntity<String> getMessage() {
+		return new ResponseEntity<String>("Hi, There", HttpStatus.OK);
+	}
+
 	@GetMapping("/file/download/{filename:.+}")
 	public ResponseEntity<Resource> getFile(@PathVariable(value = "filename") String fileName,
 			HttpServletRequest request) throws IOException {
