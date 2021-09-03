@@ -9,10 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>poc.filesserver</groupId>
-	<artifactId>FilesAndServer</artifactId>
+	<artifactId>file-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>FilesAndServer</name>
+	<name>file-server</name>
 	<description>FilesAndServer</description>
+	<packaging>jar</packaging>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
